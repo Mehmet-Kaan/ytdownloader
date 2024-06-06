@@ -66,7 +66,7 @@ const DownloadVideo = () => {
             const link = document.createElement('a');
             link.href = url;
 
-            link.setAttribute('download', sanitizedFilename);
+            link.setAttribute('download', `${sanitizedFilename}.mp4`);
             document.body.appendChild(link);
             link.click();
         } catch (err) {
