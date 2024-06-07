@@ -16,6 +16,8 @@ const DownloadVideo = () => {
     const getVideoInfo = async (videoURL) => {
         try {
             const response = await axios.post(`${sourceURL}/videoInfo`, { URL: videoURL });
+
+console.log(response.data.videoInfo);
             if(response.data.videoInfo.videoDetails.category === "Music"){
                 setError("The link provided has category 'Music'. For better result, 'MP3 Download' is recommended!")
             }
