@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ytdownloader/static/css/main.76c511d0.css",
+    "main.js": "/ytdownloader/static/js/main.5219e15a.js",
+    "index.html": "/ytdownloader/index.html",
+    "main.76c511d0.css.map": "/ytdownloader/static/css/main.76c511d0.css.map",
+    "main.5219e15a.js.map": "/ytdownloader/static/js/main.5219e15a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76c511d0.css",
+    "static/js/main.5219e15a.js"
+  ]
+}
